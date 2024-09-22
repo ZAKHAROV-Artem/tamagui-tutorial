@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# Tamagui themes tutorial
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<table>
+  <tr>
+   <td valign="top"><img src="https://github.com/user-attachments/assets/26cafd8d-fc84-4eaa-8623-8d48f24aeb47"/></td>
+   <td valign="top"><img src="https://github.com/user-attachments/assets/96d429ef-653a-4668-af64-2f9a146ee2d8"/></td>
+   <td valign="top"><img src="https://github.com/user-attachments/assets/13fb2898-1e70-4d36-9aee-cab7c0f5885f"/></td>       
+  </tr>
+</table>
 
-## Get started
+## Installation
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+#### 1. Clone the Repository
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/ZAKHAROV-Artem/tamagui-tutorial .
+cd tamagui-tutorial
+```
+#### 2. Install Dependencies
+```
+npm i
+```
+#### 3. Prebuild the Project
+```
+npm run prebuild
+```
+#### 4. Run on Android or Ios
+```
+npm run andriod 
+```
+```
+npm run ios
+```
