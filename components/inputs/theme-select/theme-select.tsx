@@ -12,17 +12,17 @@ export default function ThemeSelect({ ...props }: XStackProps) {
       <ThemeSelectItem
         bg="$black4"
         isSelected={theme === "dark"}
-        opPress={() => dispatch(setTheme("dark"))}
+        onPress={() => dispatch(setTheme("dark"))}
       />
       <ThemeSelectItem
         bg="$green8Light"
         isSelected={theme === "green"}
-        opPress={() => dispatch(setTheme("green"))}
+        onPress={() => dispatch(setTheme("green"))}
       />
       <ThemeSelectItem
         bg="$blue8Light"
         isSelected={theme === "light"}
-        opPress={() => dispatch(setTheme("light"))}
+        onPress={() => dispatch(setTheme("light"))}
       />
     </XStack>
   );
